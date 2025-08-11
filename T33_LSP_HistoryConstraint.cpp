@@ -5,6 +5,8 @@ using namespace std;
 // Sub class methods should not be allowed state changes What
 // Base class never allowed.
 
+// if final is written in front of calss or method means that can not be inhertied or override or overload, inshort it can not be change, Immutable
+
 class BankAccount {
 protected:
     double balance;

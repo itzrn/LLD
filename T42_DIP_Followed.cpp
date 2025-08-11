@@ -48,3 +48,14 @@ int main() {
     UserService service2(&mongodb);
     service2.storeUser("Rohit");
 }
+
+
+// open close principle is the target DIP is the solution
+
+// supose there is CEO manager and employee
+// then manager will act like interface
+
+// object can be very complicated
+// like human in different senario behave different
+// if human is at home can call the sleep function, eat function
+// if at office can call the work function

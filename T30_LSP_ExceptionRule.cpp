@@ -20,6 +20,8 @@ using namespace std;
 │   ├── std::underflow_error   
 */
 
+// noexcept(false) -> means the particular method will throw exception
+
 class Parent {
 public:
     virtual void getValue() noexcept(false) { // Parent throws logic_error exception

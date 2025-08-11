@@ -28,6 +28,7 @@ public:
 class Child : public Parent {
 public:
 //  Can also have return type as Dog
+// or you can keep the narrow type
     Animal* getAnimal() override { 
         cout << "Child : Returning Dog instance" << std::endl;
         return new Dog();
