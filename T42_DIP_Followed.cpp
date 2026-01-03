@@ -54,6 +54,7 @@ int main() {
 
 // supose there is CEO manager and employee
 // then manager will act like interface
+// if open close principle is target then DIP is the solution
 
 // object can be very complicated
 // like human in different senario behave different

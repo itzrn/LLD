@@ -37,7 +37,7 @@ public:
 
     virtual void brake() = 0;       // Abstract method for Dynamic Polymorphism
     
-    virtual ~Car() {}               // Virtual destructor
+    virtual ~Car() {}               // Virtual destructor, just to make sure at the run time that compiler have the access to run the derived class destructor, if base class destructor is not present then it won't run the derived class destructor which may lead to memory leak, half deleted object
 };
 
 class ManualCar : public Car {
