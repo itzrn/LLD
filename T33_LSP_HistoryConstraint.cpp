@@ -6,6 +6,7 @@ using namespace std;
 // Base class never allowed.
 
 // if final is written in front of calss or method means that can not be inhertied or override or overload, inshort it can not be change, Immutable
+// if child class makes class or method mutable from immutable then it will break history constraint of LSP
 
 class BankAccount {
 protected:
